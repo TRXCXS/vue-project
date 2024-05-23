@@ -1,12 +1,19 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
+      <router-link to="/">Home</router-link>
+      |
       <router-link to="/about">About</router-link>
     </nav>
     <router-view/>
   </div>
 </template>
+
+<!--
+<template></template>：模版部分，生成HTML代码。模版部分需要一对根标签，一般是div。
+<script></script>：控制模版的数据来源和行为
+<style></style>：控制CSS样式
+-->
 
 <style>
 #app {
@@ -30,3 +37,5 @@ nav a.router-link-exact-active {
   color: #42b983;
 }
 </style>
+<script setup lang="ts">
+</script>
