@@ -6,6 +6,11 @@ import App from './App.vue'
 // 导入./router目录下的某个默认导出文件，最常见的情况是index.js
 import router from './router'
 
+import ElementUI from 'element-ui';
+import 'element-ui/lib/theme-chalk/index.css';
+
+Vue.use(ElementUI);
+
 // 设置为false时，不会在生产环境中显示Vue的生产提示信息。
 Vue.config.productionTip = false
 
